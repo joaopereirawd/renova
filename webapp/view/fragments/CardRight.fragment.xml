@@ -1,0 +1,39 @@
+<core:FragmentDefinition
+    xmlns:core="sap.ui.core"
+    xmlns="sap.m"
+    xmlns:f="sap.f"
+    xmlns:layout="sap.ui.layout"
+    xmlns:card="sap.f.cards"
+>
+    <f:Card
+        width="100%"
+        class="card"
+    >
+        <f:header>
+            <FlexBox
+                class="card__header"
+                justifyContent="SpaceBetween"
+                alignItems="Start"
+                width="100%"
+            >
+                <items>
+                    <Title
+                        class="card__headerTitle"
+                        text="Palete Esquerda"
+                        level="H6"
+                    />
+
+                    <Button
+                        class="card__headerButton"
+                        text="Transferir"
+                        press=""
+                    />
+                </items>
+            </FlexBox>
+        </f:header>
+
+        <f:content>
+            <Text text="text" />
+        </f:content>
+    </f:Card>
+</core:FragmentDefinition>

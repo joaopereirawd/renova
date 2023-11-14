@@ -1,7 +1,74 @@
-<mvc:View controllerName="renova.controller.App"
-    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
-    xmlns="sap.m">
-    <Page id="page" title="{i18n>title}">
-        <content />
-    </Page>
+<mvc:View
+    controllerName="renova.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:core="sap.ui.core"
+    xmlns:l="sap.ui.layout"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:f="sap.f"
+    xmlns:layout="sap.ui.layout"
+    height="100%"
+    width="100%"
+>
+    <f:DynamicPage
+        id="dynamicPageId"
+        toggleHeaderOnTitleClick="false"
+    >
+        <!-- DynamicPage Title -->
+        <f:title>
+            <core:Fragment
+                fragmentName="renova.view.fragments.AppTitle"
+                type="XML"
+            />
+        </f:title>
+
+        <!-- DynamicPage Header -->
+        <f:header>
+            <core:Fragment
+                fragmentName="renova.view.fragments.AppHeader"
+                type="XML"
+            />
+        </f:header>
+
+        <!-- DynamicPage Contend -->
+        <f:content>
+            <FlexBox
+                id="MainGrid"
+                class="cardHeader"
+                justifyContent="SpaceBetween"
+                alignItems="Center"
+                width="100%"
+            >
+                <VBox
+                    width="100%"
+                    id="fragmentLeft"
+                >
+                    <core:Fragment
+                        fragmentName="renova.view.fragments.CardLeft"
+                        type="XML"
+                    />
+                </VBox>
+
+                <VBox
+                    width="100%"
+                    id="fragmentMiddle"
+                >
+                    <core:Fragment
+                        fragmentName="renova.view.fragments.CardMiddle"
+                        type="XML"
+                    />
+                </VBox>
+
+                <VBox
+                    width="100%"
+                    id="fragmentRight"
+                >
+                    <core:Fragment
+                        fragmentName="renova.view.fragments.CardRight"
+                        type="XML"
+                    />
+                </VBox>
+            </FlexBox>
+        </f:content>
+    </f:DynamicPage>
 </mvc:View>
