@@ -12,7 +12,13 @@
   "dependencies": {},
   "devDependencies": {
     "@ui5/cli": "^3.0.0",
-    "@sap/ux-ui5-tooling": "1"
+    "@sap/ux-ui5-tooling": "1",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-watch": "^5.0.1",
+    "node-sass": "^9.0.0",
+    "sass": "^1.66.1"
   },
   "scripts": {
     "dev": "fiori run --open \"index.html?sap-ui-xx-viewCache=false\"",
