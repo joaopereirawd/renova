@@ -1,0 +1,23 @@
+<core:FragmentDefinition
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:core="sap.ui.core"
+    xmlns:l="sap.ui.layout"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:f="sap.f"
+    xmlns:layout="sap.ui.layout"
+>
+    <f:DynamicPageTitle>
+        <f:heading>
+            <Title text="Estação PE01" />
+        </f:heading>
+
+        <f:actions>
+            <Button
+                text="Start"
+                type="Emphasized"
+                press="toggleAreaPriority"
+            />
+        </f:actions>
+    </f:DynamicPageTitle>
+</core:FragmentDefinition>

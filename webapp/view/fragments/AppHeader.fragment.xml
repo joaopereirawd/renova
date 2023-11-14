@@ -1,0 +1,43 @@
+<core:FragmentDefinition
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:core="sap.ui.core"
+    xmlns:l="sap.ui.layout"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:f="sap.f"
+    xmlns:layout="sap.ui.layout"
+>
+    <f:DynamicPageHeader pinnable="false">
+        <layout:HorizontalLayout allowWrapping="true">
+            <layout:VerticalLayout class="sapUiMediumMarginEnd">
+                <ObjectAttribute
+                    title="Grupo de picking"
+                    text="XXXXXX"
+                />
+                <ObjectAttribute
+                    title="Halway"
+                    text="23L"
+                />
+                <ObjectAttribute
+                    title="Rack"
+                    text="34"
+                />
+            </layout:VerticalLayout>
+
+            <layout:VerticalLayout>
+                <ObjectAttribute
+                    title="Location"
+                    text="Warehouse A"
+                />
+                <ObjectAttribute
+                    title="Halway"
+                    text="23L"
+                />
+                <ObjectAttribute
+                    title="Rack"
+                    text="34"
+                />
+            </layout:VerticalLayout>
+        </layout:HorizontalLayout>
+    </f:DynamicPageHeader>
+</core:FragmentDefinition>
