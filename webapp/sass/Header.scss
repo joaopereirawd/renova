@@ -1,0 +1,24 @@
+/**
+ * Header
+**/
+
+.headerBar {
+    padding-bottom: 0px !important;
+
+    &__title {
+        >div {
+            &:nth-child(2) {
+                h6 {
+                    color: #7B91A8;
+                    font-family: '72' !important;
+                    margin-left: 5px;
+                }
+            }
+        }
+    }
+
+}
+
+.subHeader {
+    padding-top: 0px !important;
+}
