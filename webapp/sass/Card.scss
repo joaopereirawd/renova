@@ -7,4 +7,42 @@
         padding: 16px;
         border-bottom: 1px solid $grayLight;
     }
+
+    &__list {
+        width: 100%;
+        padding: 10px 10px 0px 10px;
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+
+            li {
+                border-radius: 12px;
+                width: 100%;
+                padding: 5px 10px;
+
+                &[data-type="in"] {
+                    background: $greenLight;
+                    border: 1px solid #CEE67E;
+                    box-shadow: none;
+
+                    >.sapMLIBHighlightInformation {
+                        background-color: $green;
+                    }
+                }
+
+                &[data-type="out"] {
+                    background: $redLight;
+                    border: 1px solid #FF8EC4;
+                    box-shadow: none;
+
+                    >.sapMLIBHighlightInformation {
+                        background-color: $red;
+                    }
+                }
+
+            }
+        }
+    }
 }

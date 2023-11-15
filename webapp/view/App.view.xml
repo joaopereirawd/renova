@@ -36,7 +36,6 @@
                 id="MainGrid"
                 class="cardHeader"
                 justifyContent="SpaceBetween"
-                alignItems="Center"
                 width="100%"
             >
                 <VBox

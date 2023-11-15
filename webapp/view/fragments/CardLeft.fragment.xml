@@ -5,38 +5,62 @@
     xmlns:layout="sap.ui.layout"
     xmlns:card="sap.f.cards"
 >
-    <f:Card
-        class="card"
-        width="100%"
-    >
-        <f:header>
-            <FlexBox
-                class="card__header"
-                justifyContent="SpaceBetween"
-                alignItems="Start"
+    <VBox class="palete palete--left">
+        <f:Card
+            class="card"
+            width="100%"
+        >
+            <f:header>
+                <FlexBox
+                    class="card__header"
+                    justifyContent="SpaceBetween"
+                    alignItems="Start"
+                    width="100%"
+                >
+                    <items>
+                        <Title
+                            class="card__headerTitle"
+                            text="Palete Esquerda"
+                            level="H6"
+                        />
+
+                        <Button
+                            class="card__headerButton"
+                            text="Transferir"
+                            press="test()"
+                        />
+                    </items>
+                </FlexBox>
+            </f:header>
+
+            <f:content>
+                <f:GridList
+                    class="card__list"
+                    width="100%"
+                    items="{dataModel>/paleteLeft}"
+                >
+                    <f:GridListItem highlight="Information">
+                        <f:customData>
+                            <core:CustomData
+                                key="type"
+                                value="{dataModel>type}"
+                                writeToDom="true"
+                            />
+                        </f:customData>
+
+                        <Text text="{dataModel>title}" />
+                    </f:GridListItem>
+                </f:GridList>
+            </f:content>
+        </f:Card>
+
+        <!--Palete svg -->
+        <VBox class="palete__graph">
+            <Image
+                src="assets/palete.svg"
+                alt="Descrição da imagem"
                 width="100%"
-            >
-                <items>
-                    <Title
-                        class="card__headerTitle"
-                        text="Palete Esquerda"
-                        level="H6"
-                    />
-
-                    <Button
-                        class="card__headerButton"
-                        text="Transferir"
-                        press=""
-                    />
-                </items>
-            </FlexBox>
-        </f:header>
-
-        <f:content>
-            <Text
-                id="CardLeft__text"
-                text="text"
             />
-        </f:content>
-    </f:Card>
+        </VBox>
+    </VBox>
 </core:FragmentDefinition>
