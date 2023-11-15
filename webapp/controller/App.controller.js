@@ -19,6 +19,13 @@ sap.ui.define([
 
                 console.log(oModel);
             },
+            
+            testCards() {
+                alert('Card Trigger!');
+            },
 
+            testHeader() {
+                alert('Header Trigger!');
+            }
         });
     });

@@ -14,9 +14,11 @@
 
         <f:actions>
             <Button
-                text="Start"
-                type="Emphasized"
-                press="toggleAreaPriority"
+                type="Unstyled"
+                icon="sap-icon://begin"
+                class="RBtn RBtn-yellow RBtn--rightIcon"
+                text="Iniciar"
+                press="testHeader()"
             />
         </f:actions>
     </f:DynamicPageTitle>

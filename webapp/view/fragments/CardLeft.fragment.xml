@@ -25,9 +25,11 @@
                         />
 
                         <Button
-                            class="card__headerButton"
+                            type="Unstyled"
+                            icon="sap-icon://forward"
+                            class="RBtn RBtn-yellow RBtn--rightIcon"
                             text="Transferir"
-                            press="test()"
+                            press="testCards()"
                         />
                     </items>
                 </FlexBox>
