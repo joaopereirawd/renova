@@ -7,9 +7,23 @@
     xmlns:f="sap.f"
     xmlns:layout="sap.ui.layout"
 >
-    <f:DynamicPageTitle>
+    <f:DynamicPageTitle class="headerBar">
         <f:heading>
-            <Title text="Estação PE01" />
+            <FlexBox
+                class="headerBar__title"
+                justifyContent="SpaceBetween"
+                alignItems="Center"
+                width="100%"
+            >
+                <Title
+                    text="Estação"
+                    level="H6"
+                />
+                <Title
+                    text="PE01"
+                    level="H6"
+                />
+            </FlexBox>
         </f:heading>
 
         <f:actions>
