@@ -1,0 +1,152 @@
+{
+    "paleteLeft": [
+        {
+            "title": "01",
+            "type": "out"
+        },
+        {
+            "title": "02",
+            "type": "out"
+        },
+        {
+            "title": "03",
+            "type": "out"
+        },
+        {
+            "title": "04",
+            "type": "out"
+        },
+        {
+            "title": "05",
+            "type": "in"
+        },
+        {
+            "title": "06",
+            "type": "in"
+        },
+        {
+            "title": "07",
+            "type": "in"
+        },
+        {
+            "title": "08",
+            "type": "in"
+        },
+        {
+            "title": "09",
+            "type": "in"
+        },
+        {
+            "title": "10",
+            "type": "in"
+        },
+        {
+            "title": "11",
+            "type": "in"
+        },
+        {
+            "title": "12",
+            "type": "in"
+        }
+    ],
+    "paleteMiddle": [
+        {
+            "title": "01",
+            "type": "out"
+        },
+        {
+            "title": "02",
+            "type": "out"
+        },
+        {
+            "title": "03",
+            "type": "out"
+        },
+        {
+            "title": "04",
+            "type": "out"
+        },
+        {
+            "title": "05",
+            "type": "in"
+        },
+        {
+            "title": "06",
+            "type": "in"
+        },
+        {
+            "title": "07",
+            "type": "in"
+        },
+        {
+            "title": "08",
+            "type": "in"
+        },
+        {
+            "title": "09",
+            "type": "in"
+        },
+        {
+            "title": "10",
+            "type": "in"
+        },
+        {
+            "title": "11",
+            "type": "in"
+        },
+        {
+            "title": "12",
+            "type": "in"
+        }
+    ],
+    "paleteRight": [
+        {
+            "title": "01",
+            "type": "out"
+        },
+        {
+            "title": "02",
+            "type": "out"
+        },
+        {
+            "title": "03",
+            "type": "out"
+        },
+        {
+            "title": "04",
+            "type": "out"
+        },
+        {
+            "title": "05",
+            "type": "in"
+        },
+        {
+            "title": "06",
+            "type": "in"
+        },
+        {
+            "title": "07",
+            "type": "in"
+        },
+        {
+            "title": "08",
+            "type": "in"
+        },
+        {
+            "title": "09",
+            "type": "in"
+        },
+        {
+            "title": "10",
+            "type": "in"
+        },
+        {
+            "title": "11",
+            "type": "in"
+        },
+        {
+            "title": "12",
+            "type": "in"
+        }
+    ]
+}

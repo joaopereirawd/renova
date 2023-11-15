@@ -1,0 +1,14 @@
+/**
+ * Palete
+**/
+
+.palete {
+    padding: 10px;
+
+    &__graph {
+        position: relative;
+        width: 100%;
+        height: auto;
+        margin-top: 5px;
+    }
+}

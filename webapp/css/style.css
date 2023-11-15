@@ -8,3 +8,46 @@
   padding: 16px;
   border-bottom: 1px solid #EFEFEF;
 }
+.card__list {
+  width: 100%;
+  padding: 10px 10px 0px 10px;
+}
+.card__list ul {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.card__list ul li {
+  border-radius: 12px;
+  width: 100%;
+  padding: 5px 10px;
+}
+.card__list ul li[data-type=in] {
+  background: #F5FAE5;
+  border: 1px solid #CEE67E;
+  box-shadow: none;
+}
+.card__list ul li[data-type=in] > .sapMLIBHighlightInformation {
+  background-color: #30914C;
+}
+.card__list ul li[data-type=out] {
+  background: #FFEAF4;
+  border: 1px solid #FF8EC4;
+  box-shadow: none;
+}
+.card__list ul li[data-type=out] > .sapMLIBHighlightInformation {
+  background-color: #AA0808;
+}
+
+/**
+ * Palete
+**/
+.palete {
+  padding: 10px;
+}
+.palete__graph {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin-top: 5px;
+}
