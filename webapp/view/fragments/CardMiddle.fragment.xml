@@ -24,9 +24,11 @@
                             level="H6"
                         />
                         <Button
-                            class="card__headerButton"
+                            type="Unstyled"
+                            icon="sap-icon://checklist-item-2"
+                            class="RBtn RBtn-yellow RBtn--rightIcon"
                             text="Finalizar Processo"
-                            press=""
+                            press="testCards()"
                         />
                     </items>
                 </FlexBox>

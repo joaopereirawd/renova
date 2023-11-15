@@ -1,0 +1,43 @@
+/**
+ * Buttons
+**/
+.RBtn {
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+
+    .sapUiIcon {
+        pointer-events: none;
+    }
+
+    >span {
+        display: flex;
+    }
+
+    &--leftIcon {
+        .sapUiIcon {
+            margin-right: 5px;
+        }
+    }
+
+    &--rightIcon {
+        .sapUiIcon {
+            order: 2;
+            margin-left: 5px;
+        }
+    }
+}
+
+.RBtn-yellow {
+    background-color: $yellow;
+
+    .sapUiIcon {
+        color: $black;
+    }
+
+    &:hover {
+        background-color: lighten($yellow, 10%);
+    }
+}

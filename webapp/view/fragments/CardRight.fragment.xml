@@ -18,16 +18,18 @@
                     width="100%"
                 >
                     <items>
+                        <Button
+                            type="Unstyled"
+                            icon="sap-icon://response"
+                            class="RBtn RBtn-yellow RBtn--leftIcon"
+                            text="Transferir"
+                            press="testCards()"
+                        />
+
                         <Title
                             class="card__headerTitle"
                             text="Palete Direita"
                             level="H6"
-                        />
-
-                        <Button
-                            class="card__headerButton"
-                            text="Transferir"
-                            press=""
                         />
                     </items>
                 </FlexBox>

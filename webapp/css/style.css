@@ -2,6 +2,40 @@
  * Colors
 **/
 /**
+ * Buttons
+**/
+.RBtn {
+  border-radius: 7px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+.RBtn .sapUiIcon {
+  pointer-events: none;
+}
+.RBtn > span {
+  display: flex;
+}
+.RBtn--leftIcon .sapUiIcon {
+  margin-right: 5px;
+}
+.RBtn--rightIcon .sapUiIcon {
+  order: 2;
+  margin-left: 5px;
+}
+
+.RBtn-yellow {
+  background-color: #FFD013;
+}
+.RBtn-yellow .sapUiIcon {
+  color: #000000;
+}
+.RBtn-yellow:hover {
+  background-color: #ffda46;
+}
+
+/**
  * Card
 **/
 .card__header {
