@@ -14,38 +14,10 @@
         },
         {
             "title": "04",
-            "type": "out"
+            "type": "in"
         },
         {
             "title": "05",
-            "type": "in"
-        },
-        {
-            "title": "06",
-            "type": "in"
-        },
-        {
-            "title": "07",
-            "type": "in"
-        },
-        {
-            "title": "08",
-            "type": "in"
-        },
-        {
-            "title": "09",
-            "type": "in"
-        },
-        {
-            "title": "10",
-            "type": "in"
-        },
-        {
-            "title": "11",
-            "type": "in"
-        },
-        {
-            "title": "12",
             "type": "in"
         }
     ],
