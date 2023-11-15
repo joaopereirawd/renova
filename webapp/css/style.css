@@ -10,6 +10,8 @@
   outline: none;
   cursor: pointer;
   font-weight: bold;
+  height: 40px;
+  padding: 0 20px;
 }
 .RBtn .sapUiIcon {
   pointer-events: none;
@@ -38,39 +40,49 @@
 /**
  * Card
 **/
+.card {
+  min-height: 545px;
+}
 .card__header {
-  padding: 16px;
+  padding: 10px;
   border-bottom: 1px solid #EFEFEF;
+  display: flex;
+  align-items: center;
 }
 .card__list {
   width: 100%;
-  padding: 10px 10px 0px 10px;
+  padding: 10px;
 }
 .card__list ul {
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  height: 100%;
   width: 100%;
 }
 .card__list ul li {
   border-radius: 12px;
   width: 100%;
   padding: 5px 10px;
+  font-weight: bold;
 }
 .card__list ul li[data-type=in] {
-  background: #F5FAE5;
-  border: 1px solid #CEE67E;
+  background: #6FC086;
+  border: 1px solid #30914C;
   box-shadow: none;
 }
 .card__list ul li[data-type=in] > .sapMLIBHighlightInformation {
   background-color: #30914C;
+  border-right: 0px !important;
 }
 .card__list ul li[data-type=out] {
-  background: #FFEAF4;
-  border: 1px solid #FF8EC4;
+  background: #FA5353;
+  border: 1px solid #AA0808;
   box-shadow: none;
 }
 .card__list ul li[data-type=out] > .sapMLIBHighlightInformation {
   background-color: #AA0808;
+  border-right: 0px !important;
 }
 
 /**

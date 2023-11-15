@@ -9,6 +9,7 @@
         <f:Card
             class="card"
             width="100%"
+            height="100%"
         >
             <f:header>
                 <FlexBox
